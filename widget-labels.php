@@ -9,6 +9,20 @@ Author URI:  https://generatewp.com/
 Text Domain: widget-labels
 */
 
+
+
+/**
+ * Security check
+ * Prevent direct access to the file.
+ *
+ * @since 1.1.0
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+
+
 final class MC_Widget_Labels {
 	private static $instance;
 

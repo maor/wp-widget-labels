@@ -23,6 +23,9 @@ In the meanwhile — enjoy, and feel free to contribute / send pull requests our
 
 ## Changelog ##
 
+### 1.1.0 - April 7, 2016 ###
+* Prevent direct access to php files.
+
 ### 1.0.0 - April 6, 2016 ###
 * Initial release.
 
