@@ -1,9 +1,9 @@
 === Widget Labels ===
-Contributors: GenerateWP, maor
+Contributors: GenerateWP, maor, ramiy
 Tags: widgets, widget label, label, widget
 Requires at least: 4.0
-Tested up to: 4.4.2
-Stable tag: trunk
+Tested up to: 4.5
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,12 +17,17 @@ It's very handy in cases where you'd like your clients to know something before 
 
 In the meanwhile — enjoy, and feel free to contribute / send pull requests our way [over at GitHub](https://github.com/maor/wp-widget-labels).
 
-
 == Screenshots ==
 
 1. Added field
 
 == Changelog ==
+
+= 1.1.0 - April 7, 2016 =
+* Prevent direct access to php files.
+* Prevent direct access to directories.
+* Use [translate.wordpress.org](https://translate.wordpress.org/) to translate the plugin.
+* Add more phpDocs.
 
 = 1.0.0 - April 6, 2016 =
 * Initial release.

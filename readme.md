@@ -4,11 +4,11 @@
 ![Banner](assets/banner-1544x500.png)
 Allows you to use custom labels/titles for any of your Widgets
 
-**Contributors:** [generatewp](https://profiles.wordpress.org/generatewp), [maor](https://profiles.wordpress.org/maor)  
+**Contributors:** [generatewp](https://profiles.wordpress.org/generatewp), [maor](https://profiles.wordpress.org/maor), [ramiy](https://profiles.wordpress.org/ramiy)  
 **Tags:** [widgets](https://wordpress.org/plugins/tags/widgets), [widget label](https://wordpress.org/plugins/tags/widget label), [label](https://wordpress.org/plugins/tags/label), [widget](https://wordpress.org/plugins/tags/widget)  
 **Requires at least:** 4.0  
-**Tested up to:** 4.4.2  
-**Stable tag:** trunk (master)  
+**Tested up to:** 4.5  
+**Stable tag:** 1.1.0  
 **License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)  
 
 ## Description ##
@@ -27,7 +27,11 @@ In the meanwhile — enjoy, and feel free to contribute / send pull requests our
 
 ## Changelog ##
 
+### 1.1.0 - April 7, 2016 ###
+* Prevent direct access to php files.
+* Prevent direct access to directories.
+* Use [translate.wordpress.org](https://translate.wordpress.org/) to translate the plugin.
+* Add more phpDocs.
+
 ### 1.0.0 - April 6, 2016 ###
 * Initial release.
-
-
