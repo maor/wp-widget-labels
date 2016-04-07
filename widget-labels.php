@@ -31,13 +31,25 @@ include_once ( plugin_dir_path( __FILE__ ) . 'i18n.php' );
 
 
 final class MC_Widget_Labels {
+
+	/**
+	 * Instance
+	 *
+	 * The current widget instance's settings.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @static
+	 * @var array
+	 */
 	private static $instance;
 
 	/**
 	 * Kickoff
 	 *
-	 * @static
 	 * @since 1.0.0
+	 * @access public
+	 * @static
 	 */
 	public static function instance() {
 		if ( ! isset( self::$instance ) ) {
@@ -50,8 +62,10 @@ final class MC_Widget_Labels {
 	/**
 	 * Setup hooks
 	 *
-	 * @static
+	 * Fire the plugin hooks.
+	 *
 	 * @since 1.0.0
+	 * @access public
 	 */
 	public function setup_actions() {
 		add_filter( 'widget_update_callback', 	array( $this, 'filter_widget_update_callback' ), 10, 2 );
@@ -60,14 +74,17 @@ final class MC_Widget_Labels {
 	}
 
 	/**
-	 * Adds form fields to Widget
+	 * Add Fields
 	 *
-	 * @static
-	 * @param $widget
-	 * @param $return
-	 * @param $instance
-	 * @return array
+	 * Adds fields to the widget form.
+	 *
 	 * @since 1.0.0
+	 * @access public
+	 *
+	 * @param WP_Widget $widget   The current widget instance.
+	 * @param bool      $return   ?
+	 * @param array     $instance The current widget instance's settings.
+	 * @return array
 	 */
 	public function filter_in_widget_form( $widget, $return, $instance ) {
 		?>
@@ -79,29 +96,35 @@ final class MC_Widget_Labels {
 	}
 
 	/**
-	 * Updates the Widget with the classes
+	 * Widget update
 	 *
-	 * @static
-	 * @param $instance
-	 * @param $new_instance
-	 * @return array
+	 * Updates the Widget with the classes.
+	 *
 	 * @since 1.0.0
+	 * @access public
+	 *
+	 * @param array $old_instance Array of old widget settings.
+	 * @param array $new_instance Array of new widget settings.
+	 * @return array
 	 */
-	public function filter_widget_update_callback( $instance, $new_instance ) {
+	public function filter_widget_update_callback( $old_instance, $new_instance ) {
 		if ( ! empty( $new_instance['mc_widget_label'] ) ) {
-			$instance['mc_widget_label'] = $new_instance['mc_widget_label'];
+			$old_instance['mc_widget_label'] = $new_instance['mc_widget_label'];
 		} else {
-			unset( $instance['mc_widget_label'] );
+			unset( $old_instance['mc_widget_label'] );
 		}
 		
-		do_action( 'widget_labels_update', $instance, $new_instance );
-		return $instance;
+		do_action( 'widget_labels_update', $old_instance, $new_instance );
+		return $old_instance;
 	}
 
 	/**
+	 * Load scripts
+	 *
 	 * Enqueues various "scripts n' styles" as I like to call it.
 	 *
 	 * @since 1.0.0
+	 * @access public
 	 */
 	public function scripts_n_styles() {
 		$screen = get_current_screen();

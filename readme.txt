@@ -28,6 +28,7 @@ In the meanwhile — enjoy, and feel free to contribute / send pull requests our
 * Prevent direct access to php files.
 * Prevent direct access to directories.
 * Use [translate.wordpress.org](https://translate.wordpress.org/) to translate the plugin.
+* Add more phpDocs.
 
 = 1.0.0 - April 6, 2016 =
 * Initial release.
