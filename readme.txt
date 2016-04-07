@@ -3,7 +3,7 @@ Contributors: GenerateWP, maor
 Tags: widgets, widget label, label, widget
 Requires at least: 4.0
 Tested up to: 4.4.2
-Stable tag: trunk
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,6 @@ This simple, but useful plugin that lets you control what label shows next to ea
 It's very handy in cases where you'd like your clients to know something before updating a certain widget. We might even change this up in the future and change it up to a `<textarea>` field.
 
 In the meanwhile — enjoy, and feel free to contribute / send pull requests our way [over at GitHub](https://github.com/maor/wp-widget-labels).
-
 
 == Screenshots ==
 

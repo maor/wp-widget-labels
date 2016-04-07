@@ -7,7 +7,7 @@ Allows you to use custom labels/titles for any of your Widgets
 **Tags:** [widgets](https://wordpress.org/plugins/tags/widgets), [widget label](https://wordpress.org/plugins/tags/widget label), [label](https://wordpress.org/plugins/tags/label), [widget](https://wordpress.org/plugins/tags/widget)  
 **Requires at least:** 4.0  
 **Tested up to:** 4.4.2  
-**Stable tag:** trunk (master)  
+**Stable tag:** 1.1.0  
 **License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)  
 
 ## Description ##
@@ -31,5 +31,3 @@ In the meanwhile — enjoy, and feel free to contribute / send pull requests our
 
 ### 1.0.0 - April 6, 2016 ###
 * Initial release.
-
-

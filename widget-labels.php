@@ -3,7 +3,7 @@
 Plugin Name: Widget Labels
 Plugin URI:  https://wordpress.org/plugins/widget-labels/
 Description: Allows you to use custom labels/titles for any of your Widgets
-Version:     1.0.0
+Version:     1.1.0
 Author:      Maor Chasen
 Author URI:  https://generatewp.com/
 Text Domain: widget-labels
