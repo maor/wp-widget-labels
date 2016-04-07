@@ -23,6 +23,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 
+/**
+ * Include plugin files
+ */
+include_once ( plugin_dir_path( __FILE__ ) . 'i18n.php' );
+
+
+
 final class MC_Widget_Labels {
 	private static $instance;
 
