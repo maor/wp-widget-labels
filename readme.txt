@@ -1,5 +1,5 @@
 === Widget Labels ===
-Contributors: GenerateWP, maor
+Contributors: GenerateWP, maor, ramiy
 Tags: widgets, widget label, label, widget
 Requires at least: 4.0
 Tested up to: 4.5

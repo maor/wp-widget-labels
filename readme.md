@@ -3,7 +3,7 @@
 
 Allows you to use custom labels/titles for any of your Widgets
 
-**Contributors:** [generatewp](https://profiles.wordpress.org/generatewp), [maor](https://profiles.wordpress.org/maor)  
+**Contributors:** [generatewp](https://profiles.wordpress.org/generatewp), [maor](https://profiles.wordpress.org/maor), [ramiy](https://profiles.wordpress.org/ramiy)  
 **Tags:** [widgets](https://wordpress.org/plugins/tags/widgets), [widget label](https://wordpress.org/plugins/tags/widget label), [label](https://wordpress.org/plugins/tags/label), [widget](https://wordpress.org/plugins/tags/widget)  
 **Requires at least:** 4.0  
 **Tested up to:** 4.5  
