@@ -19,8 +19,10 @@ In the meanwhile — enjoy, and feel free to contribute / send pull requests our
 
 
 == Screenshots ==
+
 1. Added field
 
 == Changelog ==
-= 1.0 (2016-04-06) =
+
+= 1.0 - April 6, 2016 =
 * Initial release.
