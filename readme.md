@@ -27,6 +27,10 @@ In the meanwhile — enjoy, and feel free to contribute / send pull requests our
 
 ## Changelog ##
 
+### 1.1.1 - April 24, 2016 ###
+* Fixed PHP Warning (bug)
+* Added help text for the label field
+
 ### 1.1.0 - April 7, 2016 ###
 * Prevent direct access to php files.
 * Prevent direct access to directories.
