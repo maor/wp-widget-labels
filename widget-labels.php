@@ -87,10 +87,13 @@ final class MC_Widget_Labels {
 	 * @return array
 	 */
 	public function filter_in_widget_form( $widget, $return, $instance ) {
+		$field_value = ( array_key_exists( 'mc_widget_label', $instance ) ) ? $instance['mc_widget_label'] : '';
 		?>
 		<p>
 			<label for="<?php echo esc_attr( sprintf( 'widget-%s-%s-mc_widget_label', $widget->id_base, $widget->number ) ); ?>"><?php esc_html_e( 'Widget Label:', 'widget-labels' ); ?></label>
-			<input type="text" name="<?php echo esc_attr( "widget-{$widget->id_base}[{$widget->number}][mc_widget_label]" ); ?>" id="<?php echo esc_attr( "widget-{$widget->id_base}-{$widget->number}-mc_widget_label" ); ?>" value="<?php echo esc_attr( $instance['mc_widget_label'] ); ?>" class="widefat">
+			<input type="text" name="<?php echo esc_attr( "widget-{$widget->id_base}[{$widget->number}][mc_widget_label]" ); ?>" id="<?php echo esc_attr( "widget-{$widget->id_base}-{$widget->number}-mc_widget_label" ); ?>" value="<?php echo esc_attr( $field_value ); ?>" class="widefat">
+			<br>
+			<small><?php esc_html_e( 'This text will show up as the label for this widget.', 'widget-labels' ); ?></small>
 		</p>
 		<?php
 	}
