@@ -2,13 +2,14 @@
 # Widget Labels
 
 ![Banner](assets/banner-1544x500.png)
-Allows you to use custom labels/titles for any of your Widgets
+Add custom labels/titles to any WordPress widget.
 
 **Contributors:** [generatewp](https://profiles.wordpress.org/generatewp), [maor](https://profiles.wordpress.org/maor), [ramiy](https://profiles.wordpress.org/ramiy)  
 **Tags:** [widgets](https://wordpress.org/plugins/tags/widgets), [widget label](https://wordpress.org/plugins/tags/widget label), [label](https://wordpress.org/plugins/tags/label), [widget](https://wordpress.org/plugins/tags/widget)  
 **Requires at least:** 4.0  
-**Tested up to:** 4.5  
-**Stable tag:** 1.1.1  
+**Tested up to:** 4.9  
+**Stable tag:** 1.1.2  
+**Requires PHP: ** 5.2.4  
 **License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)  
 
 ## Description ##
@@ -21,11 +22,20 @@ In the meanwhile — enjoy, and feel free to contribute / send pull requests our
 
 ## Screenshots ##
 
-### Added field
+### WordPress widget with the new "Widget Label" field.
 
-![Added field](assets/screenshot-1.jpg)
+![WordPress widget with the new "Widget Label" field.](assets/screenshot-1.jpg)
 
 ## Changelog ##
+
+### 1.1.2 - January 26, 2017 ###
+* Merge the i18n file to the main class.
+* Tested up to WordPress 4.9.
+* Requires PHP 5.2.4.
+
+### 1.1.1 - April 24, 2016 ###
+* Fixed PHP Warning (bug)
+* Added help text for the label field
 
 ### 1.1.1 - April 24, 2016 ###
 * Fixed PHP Warning (bug)
@@ -39,5 +49,3 @@ In the meanwhile — enjoy, and feel free to contribute / send pull requests our
 
 ### 1.0.0 - April 6, 2016 ###
 * Initial release.
-
-
