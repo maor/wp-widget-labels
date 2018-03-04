@@ -2,12 +2,13 @@
 Contributors: GenerateWP, maor, ramiy
 Tags: widgets, widget label, label, widget
 Requires at least: 4.0
-Tested up to: 4.5
-Stable tag: 1.1.1
+Tested up to: 4.9
+Stable tag: 1.1.2
+Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Allows you to use custom labels/titles for any of your Widgets
+Use custom labels/titles for any WordPress widget.
 
 == Description ==
 
@@ -19,13 +20,18 @@ In the meanwhile — enjoy, and feel free to contribute / send pull requests our
 
 == Screenshots ==
 
-1. Added field
+1. WordPress widget with the new "Widget Label" field.
 
 == Changelog ==
 
+= 1.1.2 - January 26, 2017 =
+* Merge the i18n file to the main class.
+* Tested up to WordPress 4.9.
+* Requires PHP 5.2.4.
+
 = 1.1.1 - April 24, 2016 =
-* Fixed PHP Warning (bug)
-* Added help text for the label field
+* Fixed PHP Warning (bug).
+* Added help text for the label field.
 
 = 1.1.0 - April 7, 2016 =
 * Prevent direct access to php files.
